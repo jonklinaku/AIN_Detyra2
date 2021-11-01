@@ -6,7 +6,7 @@ import java.util.Set;
 public class Main {
 
     public static void main(String[] args)  throws Exception{
-        System.out.println(Arrays.toString(crossOver(new int[]{1,2,3,4,5,6},new int[]{6,3,2,6,4,1})));
+        System.out.println(Arrays.toString(crossOver(new int[]{1,2,3,4,5,6},new int[]{6,3,2,5,4,1})));
     }
     private static int[] crossOver(int[] parent1,int[] parent2) throws Exception{
         if (parent1.length != parent2.length)
